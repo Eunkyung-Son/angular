@@ -7,16 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionComponent implements OnInit {
 
-  present = 'welcome';
+constructor() {}
 
-  constructor() { }
-
-  startTime($event) {
-    this.present = $event;
-  }
-
-
-  ngOnInit(): void {
-  }
+ngOnInit() {
+}
 
 }
